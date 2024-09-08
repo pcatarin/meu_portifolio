@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Rogério Catarin</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="assets/scripts.js" defer></script>
+</head>
+<body>
+    <div class="tema" id="tema">
+        <input class="tema-btn" id="tema-btn" type="checkbox" name="toggle">
+    </div>
+    <header>
+        <div>
+            <h1>Portifólio</h1>
+        </div>
+
+        <div class="header" id="header">
+            <nav class="menu_mobile">
+                <button type="button" id="button" onclick="handleClick()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul id="options2" onclick="menuOpen()">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#text-serv">Serviços</a></li>
+                    <li><a href="#text-cont">Contato</a></li>
+                    <li><a href="#text-local">Redes Sociais</a></li>
+                </ul>
+
+                <nav id="menu_desktop">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#text-serv">Habilidades</a>
+                    <a href="#text-cont">Contato</a>
+                    <a href="#text-local">Redes Sociais</a>
+                </nav>
+        
+                <div class="overlay" id="overlay"></div>
+
+
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="content" id="content">
+        <section class="sobre" id="sobre">
+            <span class="borda-sup"></span>
+            <span class="borda-dir"></span>
+            <section class="title" id="title">
+                <h2>Olá, me Chamo Paulo Catarin</h2>
+                <h3>Desenvolvedor <span>Front End</span></h3>
+            </section>
+            <section class="imagem" id="imagem">
+                <img src="imagens/pessoal1-img.png" alt="">
+            </section>
+            <span class="borda-esq"></span>
+            <span class="borda-inf"></span>
+        </section>
+
+        <section class="sobre2">
+            <div class="descricao">
+                <h2>SOBRE:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere incidunt autem, at necessitatibus accusantium ut deserunt voluptatem molestias explicabo ab, cumque neque quae quod cum ducimus tempora maxime libero!</p>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <div>
+                <h2 class="hab-txt" id="hab-txt">Minhas Habilidades:</h2>
+                <div class="hab-img">
+                    <img src="imagens/html-5_919827.png" alt="" class="img" id="img1">
+                    <img src="imagens/css_919826.png" alt="" class="img" id="img2">
+                    <img src="imagens/js_5968292.png" alt="" class="img" id="img3">
+                    <img src="imagens/figma_5968705.png" alt="" class="img" id="img4">
+                    <img src="imagens/vecteezy_canva-icon-logo-symbol_32329171.png" alt="" class="img" id="img5">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
